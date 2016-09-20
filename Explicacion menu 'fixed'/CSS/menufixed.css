@@ -1,0 +1,93 @@
+*{margin: 0px; padding: 0px; border: none;}
+
+body {
+	margin: auto;
+	font-family: 'David Libre', serif;
+	height: 100%;
+	width:100%;
+}
+
+header {
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+nav {
+	background-color: #8A8989;
+	color:#45B4E2;
+	height: 50px;
+	position: fixed;
+	top: 150px;
+	right: 2%;
+}
+
+ul li {
+	display: block;
+	padding-top: 10px;	
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 14px;
+  background: #8A8989;
+  padding: 10px 20px 10px 20px;
+  display: block;
+  height: 40px;
+  text-align: center;
+   
+}
+
+.btn:hover {
+  background: #345366;
+
+}
+
+main {
+	background-color: #F0EDED;
+	display: inline-block;
+	margin:  10px 200px 10px 200px; /* Esta negrada no va, es porque no me doy cuenta porque el margin: auto; no me esta funcionando en body y cero ganas de pensar*/
+}
+
+article {
+	display: inline-block; /* los elementos se comportan como bloques que deben colocarse en línea dentro del main*/
+	margin: 10px;
+	width: 200px;
+	background-color: #D6D4D4;
+	padding: 10px;
+
+}
+
+aside {
+	display: inline-block;
+	width: 200px;
+	background-color: #AAAAAA;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+footer {
+	background-color: #8A8989;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+#full {
+	display: block; 
+	margin: 10px;
+	width: 950px;
+	background-color: #D6D4D4;
+	padding: 10px;
+}
+
+img {
+	width: 705px; /* Otra negrada, pero como es para el ejemplo nos importa muy poco*/
+	height: 300px;
+	margin-top: 10px;
+	
+}
