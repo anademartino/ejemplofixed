@@ -1,7 +1,7 @@
-*{margin: 0px; padding: 0px; border: none;}
+*{margin: 0px; padding: 0px; border: none;} /*reseteas los valores del documento a 0*/
 
 body {
-	margin: auto;
+	margin: auto; /* En general esta opción centra todo el contenido, como no estaría ocurriendo lo mande a la mierda y al main le puse valores aprox */
 	font-family: 'David Libre', serif;
 	height: 100%;
 	width:100%;
@@ -19,13 +19,13 @@ nav {
 	background-color: #8A8989;
 	color:#45B4E2;
 	height: 50px;
-	position: fixed;
+	position: fixed; /* Fija en el lugar a nav*/
 	top: 150px;
 	right: 2%;
 }
 
 ul li {
-	display: block;
+	display: block; /* Los elementos se comportan como bloques, por lo tanto se apilan uno sobre otro [en caso de que se te superponga y quieras que quede arriba podes usar z-index] */
 	padding-top: 10px;	
 }
 
@@ -47,7 +47,7 @@ ul li {
 
 main {
 	background-color: #F0EDED;
-	display: inline-block;
+	display: inline-block; /* Los elementos en general se comportan como bloques hijos unicos y ocupan todo el espacio, aca les decis que no sean putos y se pongan en linea */
 	margin:  10px 200px 10px 200px; /* Esta negrada no va, es porque no me doy cuenta porque el margin: auto; no me esta funcionando en body y cero ganas de pensar*/
 }
 
